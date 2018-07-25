@@ -1,0 +1,40 @@
+{
+    "edit": [
+        [{
+            "text": "nome do Evento",
+            "callback_data": "criarNomeEvento"
+        }],
+        [{
+            "text": "Local",
+            "callback_data": "criarLocal"
+        }],
+        [{
+            "text": "Hora",
+            "callback_data": "criarHora"
+        }],
+        [{
+            "text": "Preço",
+            "callback_data": "criarPreço"
+        }],
+        [{
+            "text": "Organizador",
+            "callback_data": "criarOrganizador"
+        }],
+        [{
+            "text": "salvar",
+            "callback_data": "atualizar"
+        }]
+    ],
+
+    "phrases":{
+        "name" : "escreva o nome do evento",
+        "local": "escreva o local",
+        "time": "digite o horario",
+        "price": "digite o preço",
+        "host": "escreva o nome do organizador"
+
+
+
+    }
+
+}
